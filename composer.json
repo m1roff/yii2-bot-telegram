@@ -1,0 +1,21 @@
+{
+  "name": "mirkhamidov/yii2-bot-telegram",
+  "description": "bot for telegram",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension", "bot", "telegram"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Jasur Mirkhamidov",
+      "email": "mirkhamidov.jasur@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "mirkhamidov\\telegramBot\\": ""
+    }
+  }
+}
